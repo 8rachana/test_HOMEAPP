@@ -1,0 +1,107 @@
+.cnt-form p {
+    margin-bottom: 0;
+}
+
+.cnt-form h6 {
+    margin-bottom: 0;
+}
+
+.cnt-main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.img-cnt {
+    position: relative;
+
+}
+{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.cnt-img {
+    width: 100%;
+    height: 250px;
+}
+
+.img-nm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cnt-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+}
+
+input .cnt-name,
+.cnt-msg,
+.cnt-mail {
+    width: 400px;
+}
+
+.cnt-name {
+    width: 400px;
+}
+
+.cnt-btn {
+    width: fit-content;
+    background: rgb(106, 125, 230);
+    border: none;
+    color: #ffff;
+}
+
+.cnt-adr {
+    width: fit-content;
+    padding: 20px;
+    background: rgb(236, 106, 25);
+    color: #ffff;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 10px;
+
+}
+
+.cnt-mainform {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.num,
+.mail,
+.addr {
+    margin: 0;
+}
+
+.map .leaflet-container {
+    width: 100vw;
+    height: 100px;
+}
+
+.form-group .form-control {
+    width: 50%;
+}
+
+.cnt-form .btn {
+    width: fit-content;
+}
+
+@media only screen and (max-width: 768px) {
+    .form-group .form-control {
+        width: 100%;
+    }
+
+    .cnt-form .btn {
+        width: fit-content;
+    }
+}

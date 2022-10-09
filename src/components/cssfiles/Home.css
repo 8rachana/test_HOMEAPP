@@ -1,0 +1,164 @@
+.home-img {
+    width: 100vw;
+    height: 400px;
+}
+
+.hm-img {
+    position: relative;
+}
+
+.img-home {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-home h3{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.img-home p{
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.img-cntnr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffff;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    width: 90vw;
+}
+
+.dest,
+.checkin {
+    border-right: 1px solid rgb(42, 35, 35);
+    padding: 0px 10px;
+}
+
+.dest,
+.checkin,
+.people {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.dest-title {
+    margin: 0;
+    font-size: 14px;
+}
+
+.dest-cnt {
+    margin: 0;
+    font-size: 14px;
+    color: rgb(84, 155, 237);
+}
+
+.cal-dt {
+    margin: 0;
+    font-size: 14px;
+}
+
+.hm-btn {
+    background: rgb(67, 151, 247);
+    color: #ffff;
+    border: none;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.hm-hdone {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.hm-cntone {
+    font-size: 14px;
+    margin: 0;
+}
+.earth{
+    font-size: 50px;
+}
+.hm-two{
+    padding: 20px 60px;
+    display: flex;
+    gap: 30px;
+}
+.hmtwo-one {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.hm-three{
+    padding: 20px 60px;
+}
+.prop-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.prop-cntone,.prop-cnttwo{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.prop-cntone-p{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: rgb(85, 81, 81);
+    font-size: 14px;
+}
+.prop-cnttwo-hd{
+    color: rgb(127, 127, 240);
+    font-size: 14px;
+}
+.prop-cnttwo-p{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: rgb(85, 81, 81);
+    font-size: 14px;
+}
+.prop-one p,.prop-one h6{
+    margin: 0;
+}
+.prop-img{
+    width: 30vw;
+    border-radius: 4px
+}
+.home-main{
+    width: 100vw;
+}
+.hm-four{
+    padding: 20px 60px;
+}
+@media only screen and (max-width: 768px) {
+
+.img-home {
+    top: 40%;
+}
+.img-cntnr {
+    flex-direction: column;
+
+}
+.dest,
+.checkin {
+    border-bottom: 1px solid rgb(42, 35, 35);
+    padding: 10px 0px;
+}
+.hm-two{
+    flex-direction: column;
+}
+}

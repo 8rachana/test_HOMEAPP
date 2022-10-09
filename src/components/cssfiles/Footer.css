@@ -1,0 +1,52 @@
+.footer-main{
+padding: 0 60px;
+display: flex;
+}
+
+.ft-hd{
+    margin: 0;
+    border-bottom: 1px solid black;
+    width: 200px;
+    padding: 0 0 20px 0;
+}
+.ft-call{
+margin: 0;
+
+}
+.ft-num{
+    margin: 0;
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.company,.support,.settings{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0;
+
+}
+.help-cnt{
+border-left: 4px solid rgb(62, 132, 236);
+padding: 20px;
+}
+
+.ft-cmp{
+margin: 0;
+}
+.curr{
+    width: fit-content;
+}
+@media only screen and (max-width: 768px) {
+
+.footer-main{
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+    }
+}
+
