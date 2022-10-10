@@ -53,6 +53,7 @@ function Home() {
                         </div>
                         <div className='people'>
                             <BsPeople />
+                            <p className='dest-cntthree'>1 Adult - 0 Children</p>
                         </div>
                         <button className='hm-btn'>SEARCH</button>
                     </div>

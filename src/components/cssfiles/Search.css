@@ -1,0 +1,29 @@
+.search-two {
+    display: flex;
+    padding: 50px;
+}
+
+.search-flt {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sprice,
+.sreview,
+.sstars,
+.sfacil,
+.stheme {
+    border: 1px solid black;
+    width: 150px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.sr-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+}

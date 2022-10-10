@@ -6,7 +6,10 @@
 .hm-img {
     position: relative;
 }
-
+.dest-cntthree{
+    font-size: 14px;
+    margin: 0;
+}
 .img-home {
     position: absolute;
     top: 20%;
@@ -33,15 +36,15 @@
     border-radius: 6px;
     padding: 20px;
     display: flex;
-    gap: 10px;
+   justify-content: space-between;
     width: 90vw;
 }
 
-.dest,
+/* .dest,
 .checkin {
     border-right: 1px solid rgb(42, 35, 35);
     padding: 0px 10px;
-}
+} */
 
 .dest,
 .checkin,
@@ -93,7 +96,7 @@
 .hm-two{
     padding: 20px 60px;
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
 }
 .hmtwo-one {
     display: flex;
@@ -123,6 +126,7 @@
 .prop-cnttwo-hd{
     color: rgb(127, 127, 240);
     font-size: 14px;
+    margin: 0;
 }
 .prop-cnttwo-p{
     display: flex;
